@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/bgcolor"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Calculate Your Age"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:context=".MainActivity"
+        android:gravity="center_horizontal"
+        android:background="@drawable/roundcorners"
+        android:padding="10dp"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/dtPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rcorner2"
+        android:textColor="@color/purple_700"
+        android:textStyle="italic"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/dtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="99/99/9999"
+        android:textColor="@color/t2"
+        android:textSize="20sp"
+        tools:context=".MainActivity"
+        android:gravity="center_horizontal"
+        android:background="@drawable/rcorner2"
+        android:padding="10dp"
+        android:textStyle="bold|italic"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Selected Date"
+        android:textColor="@color/t4"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:padding="6dp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/tvage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Your Age:"
+        android:textColor="@color/textcolor"
+        android:textSize="25sp"
+        tools:context=".MainActivity"
+        android:padding="9dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:id="@+id/ageday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"
+            android:text="In Days -"
+            android:textColor="@color/t4"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+            android:padding="6dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:id="@+id/agehour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"
+            android:text="In Hours -"
+            android:textColor="@color/t4"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+
+            android:padding="6dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:id="@+id/agemins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"
+            android:text="In Minutes -"
+            android:textColor="@color/t4"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+
+            android:padding="6dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:id="@+id/agesecs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"
+            android:text="In Seconds -"
+            android:textColor="@color/t4"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+
+            android:padding="6dp"
+            android:textStyle="italic"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:text="Felt lucky to have lived so much!!!"
+        android:textColor="@color/textcolor"
+        android:textSize="23sp"
+        android:gravity="center_horizontal"
+        android:padding="9dp"
+        />
+</LinearLayout>
